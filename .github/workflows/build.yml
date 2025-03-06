@@ -3,7 +3,7 @@ name: build
 on: [push, pull_request, workflow_dispatch]
  
 jobs:
-  build:
+ build:
     runs-on: ubuntu-latest
     container: npmaile/libxenon-builder:latest
  
